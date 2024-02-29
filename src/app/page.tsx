@@ -105,7 +105,6 @@ export default function Home() {
                 <input
                     type="number"
                     name="lat"
-                    value={formData.lat}
                     onChange={handleChange}
                     placeholder="latitud"
                     required
@@ -114,7 +113,6 @@ export default function Home() {
                 <input
                     type="number"
                     name="lng"
-                    value={formData.lng}
                     onChange={handleChange}
                     placeholder="logintud"
                     required
@@ -123,7 +121,6 @@ export default function Home() {
                 <input
                     type="text"
                     name="name"
-                    value={formData.name}
                     onChange={handleChange}
                     placeholder="Nombre del local"
                     required
@@ -132,7 +129,6 @@ export default function Home() {
                 <input
                     type="text"
                     name="photoUrl"
-                    value={formData.photoUrl}
                     onChange={handleChange}
                     placeholder="URL de la foto"
                     required
@@ -141,7 +137,6 @@ export default function Home() {
                 <input
                     type="text"
                     name="address"
-                    value={formData.address}
                     onChange={handleChange}
                     placeholder="Dirección"
                     required
@@ -150,7 +145,6 @@ export default function Home() {
                 <input
                     type="text"
                     name="urlLink"
-                    value={formData.urlLink}
                     onChange={handleChange}
                     placeholder="Enlace URL"
                     required
@@ -159,7 +153,6 @@ export default function Home() {
                 <input
                     type="tel"
                     name="phoneNumber"
-                    value={formData.phoneNumber}
                     onChange={handleChange}
                     placeholder="Número de teléfono"
                     required
@@ -168,7 +161,6 @@ export default function Home() {
                 <input
                     type="text"
                     name="country"
-                    value={formData.country}
                     onChange={handleChange}
                     placeholder="País"
                     required
@@ -178,7 +170,6 @@ export default function Home() {
                 <input
                     type="text"
                     name="Monday"
-                    value={formData.opening_hours.Monday}
                     onChange={handleChange}
                     placeholder="Monday"
                     required
@@ -187,7 +178,6 @@ export default function Home() {
                 <input
                     type="text"
                     name="Tuesday"
-                    value={formData.opening_hours.Tuesday}
                     onChange={handleChange}
                     placeholder="Tuesday"
                     required
@@ -196,7 +186,6 @@ export default function Home() {
                 <input
                     type="text"
                     name="Wednesday"
-                    value={formData.opening_hours.Wednesday}
                     onChange={handleChange}
                     placeholder="Wednesday"
                     required
@@ -205,7 +194,6 @@ export default function Home() {
                 <input
                     type="text"
                     name="Thursday"
-                    value={formData.opening_hours.Thursday}
                     onChange={handleChange}
                     placeholder="Thursday"
                     required
@@ -214,7 +202,6 @@ export default function Home() {
                 <input
                     type="text"
                     name="Friday"
-                    value={formData.opening_hours.Friday}
                     onChange={handleChange}
                     placeholder="Friday"
                     required
@@ -223,7 +210,6 @@ export default function Home() {
                 <input
                     type="text"
                     name="Saturday"
-                    value={formData.opening_hours.Saturday}
                     onChange={handleChange}
                     placeholder="Saturday"
                     required
@@ -232,7 +218,6 @@ export default function Home() {
                 <input
                     type="text"
                     name="Sunday"
-                    value={formData.opening_hours.Sunday}
                     onChange={handleChange}
                     placeholder="Sunday"
                     required
