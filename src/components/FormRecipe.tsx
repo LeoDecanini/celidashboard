@@ -21,7 +21,7 @@ export default function FormRecipe() {
     const { name, value } = e.target;
     setFormData((prevState) => ({
       ...prevState,
-      [name]: value,
+      [name]: name === "categories" ? [...prevState.categories, value] : value,
     }));
   };
 
@@ -74,7 +74,7 @@ export default function FormRecipe() {
         raciones: "",
         ingredientes: [""],
         pasos: [""],
-        categories: [""],
+        categories: [],
       });
     } catch (error) {
       console.error("Error adding recipe: ", error);
